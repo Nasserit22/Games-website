@@ -1,0 +1,55 @@
+#wrap{
+    margin: 0 auto;
+    text-align: center;
+    font-family: Helvetica;
+    background-color: black;
+    border: solid 5px gold;
+    color: gold;
+}
+
+#header{
+    font-size: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.parag{
+    font-family: Helvetica;
+    font-size: 22;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.para{
+    font-family: Helvetica;
+    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.paragragh{
+    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.par{
+    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.paragra{
+    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

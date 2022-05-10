@@ -1,0 +1,187 @@
+body{
+    background-color: blueviolet;
+    color: #eee;
+}
+h1{
+    margin: 0 41%;
+    font-size: 50px;
+    color: #eee;
+
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+::selection{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+
+.header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    text-decoration: none;
+}
+ 
+.logo{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #3a6cf4;
+}
+.navigation a{
+    color: #3a6cf4;
+    font-size: 1.2em ;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #2c1c52;
+}
+
+.fifa{
+    font-size: 30px;
+    color: black;
+
+}
+.fifa1{
+      font-size: 20px;
+      color:black;  
+      
+}
+.fifa2{
+    color: blue;
+    background-color: white;
+    padding: 1% 0 ;
+    border-radius: 300px;
+}
+.fifa3{
+    margin: 0% 28%;
+}
+.trailer{
+    font-size: 30px;
+    margin:5% 40% 0% 40%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    box-shadow: inset 10px 437px 280px black;
+    border-radius: 100px ;
+}
+.vtrailer{
+    margin: 0 28% 2% 28%;
+}
+.fifa4{
+    color: blue;
+    background-color: white;
+    padding: 1% 0 ;
+    border-radius: 10px;
+}
+.fifa5{
+    margin: 1% 40% 2% 40%;
+}
+.list{
+    background-color: black;
+    color: white;
+    padding: 0.5px;
+}
+.table{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+table{
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border-spacing:  2px;
+    border-collapse: separate;
+    text-indent: initial;
+
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+td{
+    background-color: #eee;
+    padding: 15px 10px;
+    margin: 20px;
+    color: black;
+}
+th{
+    background-color: black;
+    padding: 15px 10px;
+    color: #EEE;
+}
+#title{
+    font-size: 20pt;
+    color: #EEE;
+}
+.h2table{
+display: flex;
+justify-content: center;
+margin-top: 60px;
+
+}
+.ptable{
+    display: flex;
+    justify-content: center;
+}
+.tablebox{
+    box-sizing:content-box;
+    box-shadow: inset 10px 437px 280px #EEE;
+    border-radius: 500px;
+    color: black;
+}
+.enjoy{
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    box-shadow: inset 10px 437px 280px blue;
+    border-radius: 500px;
+    padding: 5px;
+    font-size: 30px;
+    
+
+}
+.videoenjoy{
+    margin: 0 27.5%;
+
+}
+.link{
+    color:black;
+    font-size: 20px;
+}
+.linkname{
+    color:blue;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #3a6cf4;
+    margin-top: -100px;
+}
+
+.address{
+    color: #171d2e;
+    text-align: center;
+}
+
+.about{
+    color: #171d2e;
+    font-weight: bold;
+}
