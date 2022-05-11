@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    text-decoration: none;
+}
+ 
+.logo{
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #3a6cf4;
+}
+.navigation a{
+    color: #3a6cf4;
+    font-size: 1.2em ;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #2c1c52;
+}
+.first{
+    color: #f0f0f0;
+}
+.second{
+    color:rgb(155, 14, 14);
+}
+section{
+    padding:120px 20px;
+}
+.main{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    background: url(images/wall6.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+h1{
+    font-size: 51px;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+    background-color: #2c1c52;
+}
+
+.car_photo{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
+.gamephoto{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vid{
+    text-align: center;   
+    width: 100%;
+   background-size: cover;
+   padding-bottom: 20px;
+   background :url(images/wall6.png) no-repeat; 
+}
+
+.footer{
+    background-color: #3a6cf4 ;
+    margin-top: -100px;
+}
+
+.address{
+    color: #171d2e;
+    text-align: center;
+}
+
+.about{
+    color: #171d2e;
+    font-weight: bold;
+}
